@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>LivingSocial Big Data Import-O-Tron</title>
+    <meta charset="utf-8" />
+    <link href="/css/awesome.css" media="screen,print" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <% if session[:authorized] == true %>
+    <div id='logout'><a href='/logout' class='logout'>Logout</a></div>
+    <% end %>
+    <div id='content'><%= yield %></div>
+  </body>
+</html>

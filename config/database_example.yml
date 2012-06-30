@@ -1,0 +1,20 @@
+development:
+  user: fred
+  password: sekrit
+  host: localhost
+  port: 5432
+  database: data_engineering_development
+
+test:
+  user: fred
+  password: sekrit
+  host: localhost
+  port: 5432
+  database: data_engineering_test
+
+production:
+  user: fred
+  password: sekrit
+  host: localhost
+  port: 5432
+  database: data_engineering_production
